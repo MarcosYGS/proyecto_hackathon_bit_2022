@@ -1,6 +1,6 @@
 # proyecto_hackathon_bit_2022 (proyecto-hackathon-bit-2022)
 
-##Índice
+## Índice
 
 
 *[Índice](#índice)
@@ -52,3 +52,25 @@ quasar build
 # o
 yarn build
 ```
+# 🛠️ tecnologías utilizadas
+
+### lenguages
+<ul>
+  <li>HTML</li>
+  <li>Javascript</li>
+  <li>CSS</li>
+  <li>Vue</li>
+</ul>
+
+### frameworks y herramientas
+<ul>
+  <li>Figma</li>
+  <li>Quasar</li>
+  <li>Pinia (vuex 5)</li>
+  <li>VueRouter</li>
+  <li>Vite</li>
+  <li>Firebase</li>
+  <li>Unplugin vue components</li>
+  <li>Material design icons </li>
+
+</ul>
