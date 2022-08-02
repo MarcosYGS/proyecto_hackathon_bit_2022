@@ -21,7 +21,8 @@
   },
   "devDependencies": {
     "@quasar/app-vite": "^1.0.0",
-    "autoprefixer": "^10.4.2"
+    "autoprefixer": "^10.4.2",
+    "unplugin-vue-components": "^0.21.2"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",
