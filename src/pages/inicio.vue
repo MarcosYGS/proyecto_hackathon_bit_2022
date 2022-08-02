@@ -40,7 +40,7 @@
 <img src="../assets/telefono.svg" class="ima" alt="">
     </div>
     <div class="col-6 ">
-      <h2>Titulo del proyecto</h2>
+      <h2>Titulo del apartado</h2>
       <div class="q-pa-md" style="max-width: 350px">
     <q-expansion-item
       class="shadow-1 overflow-hidden text-h5 tarjeta-2"

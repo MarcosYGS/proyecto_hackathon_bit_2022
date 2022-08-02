@@ -1,4 +1,5 @@
 import { initializeApp } from "firebase/app";
+import{getAuth} from "firebase/auth";
 
 
 // credenciales de firebase
