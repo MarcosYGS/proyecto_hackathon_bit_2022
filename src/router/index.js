@@ -1,7 +1,22 @@
 import { route } from 'quasar/wrappers'
 import { createRouter, createMemoryHistory, createWebHistory, createWebHashHistory } from 'vue-router'
 
+import { useUserStore } from '../stores/user'
 
+
+///script para autentificar la valides para las rutas
+const requireAuth = async (to, from, next) =>{
+
+  const userStore = useUserStore();
+  userStore.loadingSession=true;
+  const user = await userStore.currentUser();
+  if(user){
+      next()
+  }else {
+      next("/login")
+  }
+  userStore.loadingSession=false;
+}
 
 
 
@@ -11,7 +26,7 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') , name:"home"}
-    ],
+    ],beforeEnter: requireAuth,
   },
 
   {
